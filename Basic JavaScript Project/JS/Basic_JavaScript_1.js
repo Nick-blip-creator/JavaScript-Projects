@@ -1,4 +1,3 @@
-window.alert("Hello");
 
 var string1 = "Have a nice day ";
 var string2= "Nick";
@@ -10,3 +9,7 @@ document.write(6 * 6);
 var blue = "I am blue";
 var blue =blue.fontcolor("blue");
 document.write(blue);
+
+<button onclick="this.innerHTML=Date()">The time is?</button>
+
+
