@@ -8,3 +8,9 @@ function myFunction1(){
     string1 += "welcome to my store";
     document.getElementById("concat").innerHTML = string1;
 }
+
+function myFunction2(a,b) {
+    return a + b;
+    document.getElementById("test").innerHTML = myFunction2(3, 3);
+
+}
