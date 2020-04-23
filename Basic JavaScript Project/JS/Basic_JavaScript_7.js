@@ -54,3 +54,11 @@ function get_Date() {
         }
         document.getElementById("Time_of_day").innerHTML = Reply;
     }
+
+    function fullSentence() {
+        var sent1 = "Welcome to my store ";
+        var sent2 = "Would you like a bagel? ";
+        var sent3 = "I insist eat this bagel." ;
+        var totalSentence = sent1.concat(sent2, sent3);
+        document.getElementById("together").innerHTML = totalSentence;
+    }
