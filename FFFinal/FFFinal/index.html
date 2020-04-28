@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Nick Walker </title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <script src="final.js"></script>
+	</head>
+
+<!--NAV-->
+<div class="navigation">
+<ul>
+  <li><a  style="color:rgb(143, 123, 9);" class="active" href="#">Home</a></li>
+  <li><a href="#scrollabout">About</a></li>
+  <li><a href="#scrollabout">GitHub</a></li>
+  <li><a onclick="openForm()">Contact</a></li> <!-- This makes it so that our openForm function runs when we click Contact on the nav bar -->
+
+</ul>
+</div>
+</div>
+<!-- Home -->
+<br> <!-- Breaks inserted to add space between navbar and first heading -->
+<br>
+
+<!-- Video -->
+<div id="Home">
+<video autoplay muted loop id="Typing_Video"> <!-- Makes the video play automatically, on a loop and with no sound -->
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support HTML5 video. <!-- Display message if video fails to run -->
+</video>
+</div>
+
+<!-- Video text --> 
+<div class="Video_Text"> 
+<h1 style="color:rgb(143, 123, 9);">Nick Walker Developer</h1>
+  <p> 
+    <strong>
+      <center>
+        <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+        <br>field of battle and to command such unswervingly dutiful actors or troops.
+        </q>	
+        <br>-Joseph Weizenbaum<br>
+        <br>
+        My name is Nick Walker. Welcome to my portfolio website. On it, I will tell you about my background and experience.<br>
+        <br>Thank you for stopping by and enjoy! 
+      </center>	
+    </strong>
+  </p> 
+</div>
+
+<div class="columns">
+  <div class="column1">
+   <img class="image1" src="Coding_1.jpg" width="800" height="400">
+  </div>
+    <div class="column2">
+      <h2>About</h2>
+      <p>Welcome to my website. I am very glad you stumbled upon it.<br><br>I am a software developer based in Los Angeles, California.<br>
+      I have a background in Real Estate and construction prior to becoming a software developer.<br> 
+      
+      </p>
+    </div>
+  </div>
+
+  <div id="scrollabout">
+    <div class="githubform">
+    <div class="column3">
+      <h2 class="gittext">GitHub</h2>
+      
+      <p>Click the link to explore my GitHub</p>
+     
+      <h2><a href="#www.github.com">GitHub</h2>   
+        </div>
+    
+    <div class="column4">
+
+      <img class="image1" src="github-mark.png" width="800" height="400">
+    </div>
+  </div>
+
+
+
+
+
+    <!-- Contact section -->
+  <div id="Contact"> 
+    <button onclick="openForm()" class="Pop_Up_Button"> CONTACT </button>
+	  <div class="form-popup" id="myForm">
+	    <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+		<h1>Contact</h1>
+			<label for="name"><b>Name</b></label>
+			  <input type="text" placeholder="Type your name here" name="name" required>
+			<label for="phone"><b>Phone</b></label>
+			  <input type="text" placeholder="Enter your phone number here" name="phone">
+			<label for="email"><b>Email</b></label>		
+			  <input type="text" placeholder="Type your email address here" name="email" required>
+			<label for="message"><b>Message</b></label>
+			  <input type="text" placeholder="Type your message here" name="message">
+ 
+    <button type="submit" class="btn">SUBMIT</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+	    </form>
+	  </div>
+  </div>
+
+
+
+
+
+
+
+    <!--FOOTER-->
+
+    <div class="footer">
+      <h4>Nick Walker Web Developer</h4>
+    </div>
+
+  
+  
+
+
+
+
+
+</body>
+    
+ 
+
+    
+
+</html>

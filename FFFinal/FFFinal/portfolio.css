@@ -1,0 +1,376 @@
+body {
+  margin: 0%;
+  background-color: white;
+  font-family: "Lucida Console", Courier, monospace;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navigation {
+  z-index: 1;
+  overflow: hidden;
+  position: fixed;
+  -webkit-animation: movenavText 5.75s; /* Safari 4.0 - 8.0 */
+    animation: movenavText 5.75s;
+  width: 100%;
+  cursor: crosshair;
+  font-size: 20px;
+  
+ 
+}
+@keyframes movenavText {
+  from { background-color: red;left: -100vw;}
+  to {background-color: white; left: 0vw;}
+}
+
+/* The animation effect for moving the nav bar in from above the top of the screen upon page load */
+@keyframes movetext {
+  from {background-color:rgb(126, 59, 59); top: -100vw;}
+  to {background-color:rgb(15, 14, 15);  top: 0px;}
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    -webkit-animation: movetext 3.75s; /* Safari 4.0 - 8.0 */
+    animation: movetext 5.75s;
+    display: block;
+    cursor: crosshair;
+    font-size: 20px;
+
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    -webkit-animation: movetext 5.75s; /* Safari 4.0 - 8.0 */
+    animation: movetext 3.75s;
+    cursor: crosshair;
+    font-size: 20px;
+
+   
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+#Typing_Video {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+ 
+}
+
+
+.Video_Text {
+  background-color: rgba(0,0,0, 0.7);
+  color: white;
+  width: 100%;
+  margin-top: 30%;
+  text-align: center;
+  -webkit-animation: movevideoText 4s; /* Safari 4.0 - 8.0 */
+    animation: movevideoText 6s;
+    position: relative;
+    padding: 5px;
+    
+}
+
+/* This animation effect causes the overlay video text to move up from the bottom of the page upon page load */
+@keyframes movevideoText {
+  from {background-color:rgb(126, 59, 59); top: -100vw;}
+  to {background-color:rgb(15, 14, 15);  top: 0px;}
+}
+.columns {
+  color: white;
+  margin-top: 5px;
+}
+
+.column1 {
+  height: 500px;
+  background-color: rgb(63, 63, 63);;
+  width: 50%;
+ float: left;
+ border-radius: 1%;
+
+
+}
+
+.image1 {
+  text-align: center;
+  margin-left: 18%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 1%;
+
+}
+
+.column2 {
+  height: 500px;
+  background-color: white;
+  color: black;
+  width: 50%;
+  float: left;
+  text-align: center;
+  box-shadow: darkgreen;
+  border-radius: 1%;
+
+ 
+}
+
+.column3 {
+  height: 500px;
+  background-color: white;
+  width: 50%;
+  float: left;
+  text-align: center;
+  border-radius: 1%;
+
+ 
+}
+
+.gittext {
+  margin-top: 15%;
+}
+
+
+
+.column4 {
+  height: 500px;
+  background-color: rgb(63, 63, 63);;
+  width: 50%;
+ float: left;
+ border-radius: 1%;
+ 
+
+
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(63, 63, 63);
+  border-radius: 5px;
+  border: 1px solid white;
+  box-sizing: border-box;
+
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: rgba(63, 63, 63);
+  padding: 20px;
+  margin-top: 5%;
+  color: white;
+}
+
+.specialcontact {
+  text-align: center;
+  color: wheat;
+}
+
+.submit1 {
+  color: white;
+}
+
+
+
+h1 {
+	text-transform: uppercase; /* We are capitalizing our headings */
+	font-family: "Trebuchet MS", Optima; 
+	text-align: center;
+	margin-top: 3%; /* We are adding a small margin above the headings */
+	color: #1a1a1a;
+}
+
+p:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.01);
+}
+
+h1:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+h2:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+img:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+
+.column1:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+.column2:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+.column3:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+.column4:hover {
+	color: #00004d;	
+    transition: transform 1s;
+	transform: scale(1.05);
+}
+
+.footer {
+  height: 200px;
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+}
+
+
+
+
+
+/* Contact form styling */
+
+/* Makes contact form button slide in from right on page load */
+@keyframes movePopup {
+  from {background-color: black; right: -40vw;}
+  to {bottom: 1.75vw;}
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.Pop_Up_Button {
+  bottom: 1.75vw;
+  right: 1.75vw;
+  width: 25vw;  
+  background-color: white;
+  color: black;
+  border: solid;
+  cursor: pointer;
+  position: fixed;
+  -webkit-animation: movePopup 5s;
+  animation: movePopup 5s;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  border: 3px solid black;
+  z-index: 8;
+  display: none;
+  position: fixed;
+  bottom: 6px;
+  right: 6px;
+}
+
+/* Form styling */
+.form-container {
+  max-width: 49vw;
+  padding: 9px;
+  background-color: white;
+}
+
+/* Input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: .93vw;
+  margin: .6vw 0 .6vw 0;
+  border: none;
+  background: Gainsboro;
+  font-family: Helvetica, Avant Garde;
+  font-size: 1vw; 
+}
+
+/* Submit button */
+.form-container .btn {
+  background-color: white;
+  color: black;
+  border-color: black;
+  margin-bottom:1vh;
+}
+
+/* Close button */
+.form-container .cancel {
+  background-color: black;
+  color: white;
+  border-color: gray;
+}
+
+/* Button styling */
+button {
+  font-family: "Trebuchet MS", Optima; 
+  letter-spacing: .3vw; 
+  font-size: 1.5vw;
+  font-weight: bold;
+  padding: 1.5vw 1.5vw;
+  border-style: solid;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+/* Hover effect for buttons */
+button:hover, .form-container .btn:hover{
+  color: white;
+  background-color: black;
+  -webkit-transition-duration: 1s; 
+  transition-duration: 1s;
+  border-style: solid;
+  border-color: silver;
+}
+.form-container .cancel:hover{
+  color: white;
+  background-color: darkred;
+  -webkit-transition-duration: 1s; 
+  transition-duration: 1s;
+  border-style: solid;
+  border-color: black;
+}	
